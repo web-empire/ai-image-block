@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.ai-image-block-textarea-wrap {
+	display: block;
+}
+.ai-image-block-save-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.ai-image-block-buttons-wrap {
+    display: flex;
+}
+.ai-image-block-bmc-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
+	text-align: center;
+}

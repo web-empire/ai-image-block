@@ -1,0 +1,31 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.ai-image-block-textarea-wrap {
+  display: block;
+}
+
+.ai-image-block-save-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ai-image-block-buttons-wrap {
+  display: flex;
+}
+
+.ai-image-block-bmc-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  text-align: center;
+}

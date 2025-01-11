@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-image-block/ai-image-block",
+  "version": "0.0.1",
+  "title": "AI Image Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "A block for getting image from AI",
+  "example": {},
+  "supports": {},
+  "attributes": {
+    "prompt": {
+      "type": "string",
+      "default": ""
+    },
+    "imgUrl": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "keywords": [
+    "img",
+    "photo",
+    "picture"
+  ],
+  "textdomain": "ai-image-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
