@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name: AI Image Block
- * Plugin URI: https://webempire.org.in/
  * Description: AI Image Block is a WordPress block that allows you to get an image from AI as per your prompt.
  * Author: AI Image Block
  * Author URI: https://webempire.org.in/
