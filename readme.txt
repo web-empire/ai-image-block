@@ -2,10 +2,8 @@
 
 Contributors: webempire
 Tags: ai, image, block, image block, ai image block
-Requires at least: 5.6
 Tested up to: 6.7
-Requires PHP: 5.6
-Stable tag: 0.0.1
+Stable tag: 0.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +23,10 @@ Thanks for the love! Every cup counts. ☕️
 
 <a href="https://buymeacoffee.com/webempire" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
+== External services ==
+This plugin connects to an API to obtain an image, it's needed to show the generated image and showcase in the included block.
+Here is API which we used: https://s9.piclumen.art/comfy/api/generate-image It sends the user's text prompt to the API and gets the image in response.
+
 == Screenshots ==
 1. AI Image Block in the editor.
 
@@ -35,5 +37,8 @@ Thanks for the love! Every cup counts. ☕️
 3. Now you can use the "AI Image Block" in your posts or pages.
 
 == Changelog ==
+= 0.0.2 =
+* Improvised codebase as per the WordPress standards.
+
 = 0.0.1 =
 * Initial release

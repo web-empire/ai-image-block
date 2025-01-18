@@ -4,7 +4,8 @@
  * Description: AI Image Block is a WordPress block that allows you to get an image from AI as per your prompt.
  * Author: AI Image Block
  * Author URI: https://webempire.org.in/
- * Version: 0.0.1
+ * Version: 0.0.2
+ * Requires at least: 5.6
  * Requires PHP: 5.6
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -21,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Set constants
  */
-define( 'AI_IMAGE_BLOCK_VER', '0.0.1' );
+define( 'AI_IMAGE_BLOCK_VER', '0.0.2' );
 define( 'AI_IMAGE_BLOCK_FILE', __FILE__ );
 define( 'AI_IMAGE_BLOCK_PATH', plugin_dir_path( AI_IMAGE_BLOCK_FILE ) );
 define( 'AI_IMAGE_BLOCK_URL', plugins_url( '/', AI_IMAGE_BLOCK_FILE ) );
